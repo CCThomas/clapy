@@ -1,4 +1,4 @@
-from cli.abstract import AbstractCLI
+from clapy.cli.abstract import AbstractCLI
 
 
 class MenuCLI(AbstractCLI):

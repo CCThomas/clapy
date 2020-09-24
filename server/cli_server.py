@@ -1,4 +1,4 @@
-from cli.menu_cli import MenuCLI
+from clapy.cli.menu_cli import MenuCLI
 
 
 def run():

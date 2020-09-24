@@ -1,5 +1,5 @@
-from data_access.abstract import AbstractDataAccess
-from models.abstract import AbstractModel
+from clapy.data_access.abstract import AbstractDataAccess
+from clapy.models.abstract import AbstractModel
 import logging
 import mysql.connector
 

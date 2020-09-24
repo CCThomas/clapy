@@ -26,7 +26,7 @@ def configure(app_name_prov='clapy', argv=None):
     logging.basicConfig(filename=log_name, level=logging.DEBUG)
 
     # set global data access
-    from data_access.mysql_data_access import MySqlDataAccess
+    from clapy.data_access.mysql_data_access import MySqlDataAccess
     config = {
         'host': 'localhost',
         'user': 'root',
